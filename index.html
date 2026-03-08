@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Airbnb Price Prediction</title>
+</head>
+
+<body>
+
+<h2>Airbnb Price Prediction</h2>
+
+<form action="/predict" method="post">
+
+    <label>Neighbourhood:</label><br>
+    <input type="number" name="neighbourhood" required><br><br>
+
+    <label>Property Type:</label><br>
+    <input type="number" name="property_type" required><br><br>
+
+    <label>Room Type:</label><br>
+    <input type="number" name="room_type" required><br><br>
+
+    <label>Beds:</label><br>
+    <input type="number" name="beds" required><br><br>
+
+    <label>Number of Reviews:</label><br>
+    <input type="number" name="number_of_reviews" required><br><br>
+
+    <label>Review Scores Rating:</label><br>
+    <input type="number" name="review_scores_rating" required><br><br>
+
+    <label>Host Tenure (Days):</label><br>
+    <input type="number" name="host_tenure_days" required><br><br>
+
+    <label>Neighbourhood Room Type:</label><br>
+    <input type="number" name="neighbourhood_roomtype" required><br><br>
+
+    <input type="submit" value="Predict Price">
+
+</form>
+
+</body>
+</html>
